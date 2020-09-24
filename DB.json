@@ -1,0 +1,172 @@
+{
+    "header": {
+"sessionId": "gE3huEwlNq6+vmDc0HNqvbsS",
+  
+        "correlationId": "12345",
+  
+        "errorCode": "000",
+  
+        "errorMsg": "NO ERROR",
+  
+        "severity": "INFO",
+  
+        "timestamp": "2019-03-21T16:29:20.210-05:00"
+},
+    "data": {
+        "id": "${WILDCARD_TRANSACTION.ID}",
+        "code": "QRY_RLD_SERVICE_DETAIL",
+        "fieldsResponse": [
+            {
+            "name": "ServicesDetail",
+            "value": "",
+            "properties":[
+                {
+                    "name": "categoryCode",
+                    "properties": null,
+                    "value": "C0001"
+                },
+                {
+                    "name": "supplierCode",
+                    "properties": null,
+                    "value": "P0001"
+                },
+                {
+                    "name": "serviceCode",
+                    "properties": null,
+                    "value": "S0001"
+                },
+                {
+                    "name": "serviceName",
+                    "properties": null,
+                    "value": "civica"
+                },
+                {
+                    "name": "serviceDescription",
+                    "properties": null,
+                    "value": "Servicio de recargas cívica"
+                },
+                {
+                    "name": "minRechargeValue",
+                    "properties": null,
+                    "value": 1000
+                },
+                {
+                    "name": "maxRechargeValue",
+                    "properties": null,
+                    "value": 100000
+                },
+                {
+                    "name": "servicesMetaInfo",
+                    "properties": [
+                            {
+                                "name": "operationId",
+                                "value": 1,
+                                "properties": ""                                
+                            },
+                            {
+                                "name": "operationName",
+                                "value": "MS-QUERY",
+                                "properties": ""                                
+                            },
+                            {
+                                "name": "description",
+                                "value": "Servicio Consulta Saldo Civica",
+                                "properties": ""                                
+                            },
+                            {
+                                "name": "inputGroups",
+                                "properties": [
+                                    {
+                                        "name": "groupInputId",
+                                        "value": 1
+                                    },
+                                    {
+                                        "name": "description",
+                                        "value": "productClientInformation"
+                                    },
+                                    {
+                                        "name": "inputs",
+                                        "properties": [ {
+                                            "name": "inputId",
+                                            "value": 1
+                                        },
+                                        {
+                                            "name": "inputReference",
+                                            "value": "firstReference"
+                                        },
+                                        {
+                                            "name": "description",
+                                            "value": "Tipo de documento o Cívica al Portador"
+                                        },
+                                        {
+                                            "name": "type",
+                                            "value": "string"
+                                        },
+                                        {
+                                            "name": "minLength",
+                                            "value": 5
+                                        },
+                                        {
+                                            "name": "maxLength",
+                                            "value": 50
+                                        },
+                                        {
+                                            "name": "options",
+                                            "value": "",
+                                            "properties": [
+                                                {
+                                                    "name": "option",
+                                                    "properties": [
+                                                        {
+                                                            "name": "keyDocument",
+                                                            "value": "CC"
+                                                        },
+                                                        {
+                                                            "name": "labelDocument",
+                                                            "value": "Cédula Ciudadanía"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "option",
+                                                    "properties": [
+                                                        {
+                                                            "name": "keyDocument",
+                                                            "value": "CE"
+                                                        },
+                                                        {
+                                                            "name": "labelDocument",
+                                                            "value": "Cédula Extranjería"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "option",
+                                                    "properties": [
+                                                        {
+                                                            "name": "keyDocument",
+                                                            "value": "NIT"
+                                                        },
+                                                        {
+                                                            "name": "labelDocument",
+                                                            "value": "NIT"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+ 
+                                        }
+ 
+                                        ]
+                                         
+                                    }
+                                     
+                                ]                             
+                            }                             
+                            ]      
+                        }
+                    ]
+                }
+            ]           
+        }
+    }
